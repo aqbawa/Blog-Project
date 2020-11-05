@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: #f8c300;
+}
+
+.header__left > h3 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header__right > span {
+  margin-right: 0.5em;
+}
