@@ -9,35 +9,12 @@ const Header = () => {
         <h3>Home</h3>
       </div>
       <div className="header__right">
-        <span>
-          <Button
-            style={{
-              textTransform: "none",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-              fontSize: "1em",
-            }}
-            className="button__signup"
-            href="#"
-            color="primary"
-          >
-            Sign Up
-          </Button>
-        </span>
-        <span>
-          <Button
-            style={{
-              textTransform: "none",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-              fontSize: "1em",
-            }}
-            href="#"
-            color="secondary"
-          >
-            Sign In
-          </Button>
-        </span>
+        <Button className="button__style" href="#" color="primary">
+          Sign Up
+        </Button>
+        <Button className="button__style" href="#" color="secondary">
+          Sign In
+        </Button>
       </div>
     </div>
   );
